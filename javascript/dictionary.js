@@ -10,6 +10,9 @@
 var student = []
 student['first_name'] = 'Heather';
 student['last_name']  = 'Kim';
+//or
+var student = { first_name: 'Heather',
+                last_name:  'Kim' };
 
 // Print the values
 console.log( student['first_name']); //Heather
